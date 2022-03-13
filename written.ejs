@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+            body {
+                background-color: rgb(24, 24, 24);
+                font-family: "Roboto", sans-serif;
+                color: rgb(0, 255, 55);
+                scrollbar-color: rgb(0, 255, 55);
+            }
+            header {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                height: 20%;
+            }
+            h1 {
+                margin-bottom: 5px;
+            }
+            hr {
+                display: flex;
+                position: fixed;
+                border: 2px solid rgb(0, 255, 55);
+                width: 96%;
+                margin-bottom: 30px;
+                margin-left: 20px; margin-right: 20px;
+            }
+            section {
+                padding: 10px; padding-left: 20px;
+                margin-top: 20px;
+                border-radius: 25px;
+                background-color: rgb(12, 12, 12);
+                color: rgb(0, 255, 55);
+            }
+            p {
+                margin-left: 20px;
+            }
+            h2 {
+                margin-left: 40px;
+            }
+        </style>
+        <title><%=title%></title>
+    </head>
+    <body>
+        <header>
+            <h1>CleanNotes</h1>
+        </header>
+        <hr>
+        <a href="/" style="text-decoration: none; color: rgb(0, 255, 55);">
+            <h5 style="width: 100%; text-align: center;">Return Home</h5>
+        </a>
+            <h2><%=title%></h2>
+        <section>
+            <p><%=resultingdata.text%></p>
+        </section>
+    </body>
+</html>
