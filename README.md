@@ -1,8 +1,10 @@
 # tidythehackupii_cleannotes
 CleanNotes; Tidy the Hack Up II <br>
 File Summary <br>
-  Main screen: index.ejs <br>
-  Blank note screen: blanknote.ejs <br>
-  Image recognition screen: written.ejs <br>
-  Displaying notes (any kind from notepad): displaynote.ejs <br>
-  All backend: launch2.js
+<ul>
+  <li> Main screen: index.ejs </li>
+  <li> Blank note screen: blanknote.ejs </li>
+  <li> Image recognition screen: written.ejs </li>
+  <li> Displaying notes (any kind from notepad): displaynote.ejs </li>
+  <li> All backend: launch2.js </li>
+</ul>
