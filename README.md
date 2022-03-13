@@ -1,5 +1,4 @@
-# tidythehackupii_cleannotes
-CleanNotes; Tidy the Hack Up II <br> <br>
+# CleanNotes
 File Summary
 <ul>
   <li> Main screen: index.ejs </li>
