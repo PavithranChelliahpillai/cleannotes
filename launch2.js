@@ -19,7 +19,7 @@ const storage = multer.diskStorage({
     }
 })
 const upload = multer({storage: storage}).single("paper");
-const uri = "mongodb+srv://pavithranc:chelvy1401@cleannotescluster.70ppp.mongodb.net/cleannotesdb";
+const uri = "mongodb+srv://pavithranc:REDACTED@cleannotescluster.70ppp.mongodb.net/cleannotesdb";
 const ejs = require ("ejs");
 const { not } = require("cheerio/lib/api/traversing");
 mongoose.connect(uri);
